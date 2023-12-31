@@ -10,6 +10,7 @@ const _close = Coloris.close;
 const _setInstance = Coloris.setInstance;
 const _removeInstance = Coloris.removeInstance;
 const _updatePosition = Coloris.updatePosition;
+const _updateColor = Coloris.updateColor;
 export default Coloris;
 export {
   _coloris as coloris,
@@ -20,4 +21,5 @@ export {
   _setInstance as setInstance,
   _removeInstance as removeInstance,
   _updatePosition as updatePosition,
+  _updateColor as updateColor
 }; 
