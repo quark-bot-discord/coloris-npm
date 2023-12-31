@@ -1212,7 +1212,7 @@ return ((window, document, Math, undefined) => {
       removeInstance: removeVirtualInstance,
       updatePosition: updatePickerPosition,
       ready: DOMReady,
-      updateColor
+      updateColor: updateColor
     };
 
     function Coloris(options) {
