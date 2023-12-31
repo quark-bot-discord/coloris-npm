@@ -1211,7 +1211,8 @@ return ((window, document, Math, undefined) => {
       setColor: setColor,
       removeInstance: removeVirtualInstance,
       updatePosition: updatePickerPosition,
-      ready: DOMReady
+      ready: DOMReady,
+      updateColor
     };
 
     function Coloris(options) {
